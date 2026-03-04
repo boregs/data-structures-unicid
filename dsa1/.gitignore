@@ -1,2 +1,4 @@
 dsa1.cbp
 
+obj/*
+bin/*
