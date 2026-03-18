@@ -7,7 +7,7 @@ int main()
 
     /* adicionar "*" na frente de um ponteiro
        causa a ele passar um valor para a varivel
-       que est· apontando
+       que est√° apontando
     */
     int *vector = (int *)malloc(size * sizeof(int));
     if (!vector){
