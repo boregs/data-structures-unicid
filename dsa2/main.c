@@ -25,6 +25,8 @@ void InsertionSort(int *nums, int target){
         //          ^ <-- key
         //        ele verificaria se o 4 (nums [j - 1]) é maior que o 7 (key)
 
+        // como estamos ordenando em ordem crescente, vamos verificar se o numero anterior do indice
+        // é maior ou menor que o indice
 
         for (j = i; (j > 0) && (key < nums[j - 1]); j--){
             // se key for menor, o indice j vai receber o valor do indice j - 1
