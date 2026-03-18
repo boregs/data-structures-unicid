@@ -31,7 +31,8 @@ void InsertionSort(int *nums, int target){
             // EX: [6,4,7,56,3,6]
             //      o indice j é o 4, ele é menor, entao vai receber o valor de 6
             nums[j] = nums[j - 1];
-            // toda vez que o loop completar, o j vai voltar uma casa no array
+            // toda vez que o loop completar, o j vai voltar uma casa no array para
+            // verificar se existe algum numero menor que o atual
         }
         // caso o loop quebre a posição atual do j vai receber o valor guardado dentro da key
         nums[j] = key;
