@@ -15,7 +15,7 @@ int main()
 }
 
 void InsertionSort(int *nums, int target){
-    int i, j, key;
+    int i, j, key = 0;
     for (i = 1; i < target; i++){
         // faz 'key' ter o valor do indice 'i'
         key = nums[i];
